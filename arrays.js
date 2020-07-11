@@ -29,16 +29,13 @@ function destructivelyRemoveElementFromBeginningOfArray(array){
 }
 
 function removeElementFromBeginningOfArray(array){
-  var sliceArray = array.slice(1);
-  return sliceArray;
+  return array.slice(1)
 }
 
 function destructivelyRemoveElementFromEndOfArray(array){
-  var popedArray = array.pop();
-  return array
+  return array.pop()
 }
 
 function removeElementFromEndOfArray(array){
-  var lastElementSliced = array.slice(0, array.length-1);
-  return lastElementSliced;
+  return array.slice(0, array.length-1);
 }
